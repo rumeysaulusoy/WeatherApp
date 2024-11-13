@@ -1,0 +1,45 @@
+﻿@model WeatherApp.Models.WeatherInfo
+
+@{
+ViewData["Title"] = "Weather Result";
+}
+
+<h2>Weather Details</h2>
+
+@if (Model?.main != null && Model.weather != null && Model.weather.Count > 0)
+{
+<div>
+    <p><strong>Temperature:</strong> @Model.main.temp &deg;C</p>
+    <p><strong>Humidity:</strong> @Model.main.humidity%</p>
+    <p><strong>Condition:</strong> @Model.weather[0].description</p>
+    <img src="@($"https://openweathermap.org/img/wn/{Model.weather[0].icon}.png")" alt="Weather Icon" />
+    
+</div>
+}
+else
+{
+<p>Weather information is not available for the specified city. Please try again.</p>
+}
+
+<a href="/" class="btn custom-btn">New Query</a>
+
+<style>
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .custom-btn {
+        background-color: #28a745; 
+        border-color: #28a745; 
+        color: white; 
+    }
+    
+    .custom-btn:hover {
+        background-color: #218838; 
+        border-color: #1e7e34;
+    }
+    
+    .custom-btn {
+        margin-top: 20px; 
+    }
+</style>
