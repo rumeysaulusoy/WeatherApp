@@ -18,10 +18,10 @@ WeatherApp is a simple ASP.NET Core web application that allows users to check t
 
 - **Home Page**
 
-![HomePage]([screenshot/input-city.png](https://github.com/rumeysaulusoy/WeatherApp/blob/main/Screenshots/screenshot_1.jpg))
-![HomePage]([screenshot/input-city.png](https://github.com/rumeysaulusoy/WeatherApp/blob/main/Screenshots/screenshot_2.jpg))
+![HomePage]((https://github.com/rumeysaulusoy/WeatherApp/tree/main/Screenshots/screenshot_1.jpg))
+![HomePage]((https://github.com/rumeysaulusoy/WeatherApp/tree/main/Screenshots/screenshot_2.jpg))
 
 - **Weather Details**
   
-![Weather Details]([screenshot/weather-details.png](https://github.com/rumeysaulusoy/WeatherApp/blob/main/Screenshots/screenshot_3.jpg))
+![Weather Details]((https://github.com/rumeysaulusoy/WeatherApp/blob/tree/Screenshots/screenshot_3.jpg))
 
